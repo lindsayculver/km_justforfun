@@ -1,0 +1,43 @@
+nav {
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  .brand {
+    font-size: 1.8em;
+    color: white;
+    /*   span:nth-child(1) {
+      color: #327CCB;
+    }
+    span:nth-child(2) {
+      color: #777;
+    } */
+  }
+  ul {
+    float: right;
+    li {
+      float: left;
+      margin-left: 20px;
+      line-height: 100%;
+      a {
+        color: white;
+        line-height: 36.667px;
+        &:hover {
+          color: white;
+        }
+      }
+      &:nth-child(2) {
+        a {
+          border: 1px solid white;
+          padding: 5px 12px;;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+.landing-wrapper {
+/*   background: -webkit-radial-gradient(50% -50%, ellipse cover, white, #105AA9); */
+background: -webkit-radial-gradient(circle cover, #438DDB, #105AA9);
+  height: 100vh;
+}
